@@ -43,7 +43,7 @@ def generate_image(forest_state):
     print(payload)
     headers = {
         "Content-Type": "application/json",
-        "api-key": "c6793551a72640a6957c02df798df68e"
+        "api-key": ""
     }
     response = requests.post(url, json=payload, headers=headers)
     print(response)
